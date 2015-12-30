@@ -1,0 +1,110 @@
+body {
+            background-color: lightgray;
+            font-family: 'Work Sans', sans-serif;
+        }
+        a {
+         color:#999;
+        }
+
+        a:hover {
+            color:#111;
+        }
+
+        .btn,.well,.panel {
+            border-radius:0;
+        }
+
+        .btn-danger {
+            background-color:#f44d3c;
+        }
+
+        .text-danger, a.text-danger {
+            color:#f44d3c;
+        }
+
+        .btn-huge {
+            padding:17px 22px;
+            font-size:22px;
+        }
+
+        .icon-bar {
+            background-color:#fff;
+        }
+        
+        .content{
+            margin-top: 70px;
+            height:40px; 
+            border-bottom:1px solid black;
+        }
+        h4{
+            margin-left: 50px;  
+        }
+        .sports_scores {
+            
+            height: 480px;
+            border-bottom:1px solid black; 
+        }    
+        .pin {
+            vertical-align: top; 
+            width: 320px;
+            height: 200px;
+            display: inline-block;
+            background: #FEFEFE;
+            border: 2px solid #FAFAFA;
+            box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+            margin: 0 2px 15px;
+            -webkit-column-break-inside: avoid;
+            -moz-column-break-inside: avoid;
+            column-break-inside: avoid;
+            background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+            opacity: 1;
+            -webkit-transition: all .2s ease;
+            -moz-transition: all .2s ease;
+            -o-transition: all .2s ease;
+            transition: all .2s ease;
+             box-shadow: 2px 2px 2px #888888;
+        }
+        .pin:hover {
+            opacity: 0.50;
+        }
+        .avatar-frame img{
+            width: 50px;
+            height: 50px;
+            padding: -5px; 
+            vertical-align: middle;
+            font-size: 14px; 
+            margin-top: 15px; 
+            margin-bottom: 5px; 
+            -webkit-border-radius: 30px; /* Saf3+, Chrome */
+            border-radius: 10px; /* Opera 10.5, IE 9 */
+            /*-moz-border-radius: 30px;  Disabled for FF1+ */
+        }
+        .frame {
+            
+            margin-top: 10px;
+            width: 265px;
+            height: 180px; 
+            margin-left: 40px;
+            
+        }
+        .team {
+            font-size: 16px; 
+        }
+        .score {
+            margin-left: 5px; 
+        }
+        .leaderboards{
+            height: 600px;
+            display: inline-block; 
+        }
+        #swag{
+            padding: 10px;
+            width: 484px; 
+        }
+        #wins{
+            padding: 10px; 
+            width: 484px; 
+        }  
+        ul:hover{
+            color: lightgray;
+        }

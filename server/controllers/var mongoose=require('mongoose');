@@ -1,0 +1,5 @@
+var mongoose=require('mongoose');
+var Curl = require('node-libcurl').Curl;
+
+var curl = new Curl();
+curl.setOpt(''https://api.fantasydata.net/nfl/v2/JSON/Schedules/2015'')

@@ -1,0 +1,32 @@
+body{
+    background-color: lightgray;
+	font-family: 'Work Sans', sans-serif;	
+}
+.pin {
+	margin-top: 100px; 
+	margin-left:190px;
+    vertical-align: top; 
+    width: 800px;
+    height: 500px;
+    padding: 20px; 
+    display: inline-block;
+    background: #FEFEFE;
+    border: 2px solid #FAFAFA;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+    opacity: 1;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+.img-circle{
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px grey;
+}
+    	

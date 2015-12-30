@@ -1,0 +1,110 @@
+
+
+
+    <nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand text-danger" href="#">Swagger Sports</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapsible">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#section1">Find Members</a></li>
+                    <li><a href="#section2">Profile</a></li>
+                    
+                    <li><a href="#section6">Logout</a></li>
+                    <li>&nbsp;</li>
+                </ul>
+               
+            </div>
+        </div>
+    </nav>
+     <!--  MAIN CONTENT! -->
+   <div class='container'> 
+    <div class ='content'>
+        <h4> Betting Chatrooms: <a href='' class='text-danger'>NBA</a> / <a href='' class='text-danger'>NFL</a></h4>
+    </div>
+<div ng-controller='usersController'>
+   <div ng-init='nfl_schedule_data()'></div>
+
+
+       
+        <p>{{nfl_schedule_data.weeks[3].games[1].home}}</p> 
+        <p>{{nfl_schedule_data.weeks[3].games[1].away}}</p> 
+    <div class='sports_scores animated fadeInLeft'>
+        <h5> Current Sports Scores: </h5>
+            <div class='pin'>
+               
+               <div class='frame'>  
+                <div class='avatar-frame'>
+                    <p><span class='text-danger'>4:30</span> 4th</p>
+                    <span class='team'><img class='avatar-frame-img' src='../assets/logos/cardinals.png' alt='arizona-cardinals'>  Arizona Cardinals <span class='score text-danger'>14</span>
+                </div>     
+                <div class='avatar-frame'>
+                    <span class='team'><img class='avatar-frame-img' src='../assets/logos/ravens.gif' alt='ravens'>  Baltimore Ravens <span class='score text-danger'> 28</span> </span>
+                </div>   
+               </div> 
+
+            </div> 
+          
+              <div class='pin'>
+               
+               <div class='frame'>  
+                <div class='avatar-frame'>
+                    <p><span class='text-danger'>4:30</span> 4th</p>
+                    <span class='team'><img class='avatar-frame-img' src='../assets/logos/cardinals.png' alt='arizona-cardinals'>  Arizona Cardinals <span class='score text-danger'>14</span>
+                </div>     
+                <div class='avatar-frame'>
+                    <span class='team'><img class='avatar-frame-img' src='../assets/logos/ravens.gif' alt='ravens'>  Baltimore Ravens <span class='score text-danger'> 28</span> </span>
+                </div>   
+               </div> 
+
+            </div>     
+
+              <div class='pin'>
+               
+               <div class='frame'>  
+                <div class='avatar-frame'>
+                    <p><span class='text-danger'>4:30</span> 4th</p>
+                    <span class='team'><img class='avatar-frame-img' src='../assets/logos/cardinals.png' alt='arizona-cardinals'>  Arizona Cardinals <span class='score text-danger'>14</span>
+                </div>     
+                <div class='avatar-frame'>
+                    <span class='team'><img class='avatar-frame-img' src='../assets/logos/ravens.gif' alt='ravens'>  Baltimore Ravens <span class='score text-danger'> 28</span> </span>
+                </div>   
+               </div> 
+
+            </div> 
+
+              <div class='pin'>
+               
+               <div class='frame'>  
+                <div class='avatar-frame'>
+                    <p><span class='text-danger'>4:30</span> 4th</p>
+                    <span class='team'><img class='avatar-frame-img' src='../assets/logos/cardinals.png' alt='arizona-cardinals'>  Arizona Cardinals <span class='score text-danger'>14</span>
+                </div>     
+                <div class='avatar-frame'>
+                    <span class='team'><img class='avatar-frame-img' src='../assets/logos/ravens.gif' alt='ravens'>  Baltimore Ravens <span class='score text-danger'> 28</span> </span>
+                </div>   
+               </div> 
+
+            </div> 
+
+        <div class='leaderboards animated fadeInRight'>    
+            <div id='swag' class='pin'>
+                <h5>Swagger Leaderboard:</h5> 
+            </div>
+            <div id='wins' class='pin'>
+               <h5>Wins Leaderboard:</h5> 
+            </div>
+        </div>        
+    </div>
+ </div>  
+
+ 
+        
+ 
